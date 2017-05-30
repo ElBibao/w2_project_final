@@ -1,0 +1,382 @@
+.
+├── css
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css
+│   ├── bootstrap.min.css.map
+│   ├── bootstrap-theme.css
+│   ├── bootstrap-theme.css.map
+│   ├── bootstrap-theme.min.css
+│   ├── bootstrap-theme.min.css.map
+│   └── style.css
+├── dashboard
+│   ├── 404.html
+│   ├── de
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── docs
+│   │   ├── access-phpmyadmin-remotely.html
+│   │   ├── access-phpmyadmin-remotely.pdf
+│   │   ├── activate-use-xdebug.html
+│   │   ├── activate-use-xdebug.pdf
+│   │   ├── activate-use-xdebug.pdfmarks
+│   │   ├── backup-restore-mysql.html
+│   │   ├── backup-restore-mysql.pdf
+│   │   ├── backup-restore-mysql.pdfmarks
+│   │   ├── change-mysql-temp-dir.html
+│   │   ├── change-mysql-temp-dir.pdf
+│   │   ├── change-mysql-temp-dir.pdfmarks
+│   │   ├── configure-vhosts.html
+│   │   ├── configure-vhosts.pdf
+│   │   ├── configure-vhosts.pdfmarks
+│   │   ├── configure-wildcard-subdomains.html
+│   │   ├── configure-wildcard-subdomains.pdf
+│   │   ├── configure-wildcard-subdomains.pdfmarks
+│   │   ├── create-framework-project-zf1.html
+│   │   ├── create-framework-project-zf1.pdf
+│   │   ├── create-framework-project-zf1.pdfmarks
+│   │   ├── create-framework-project-zf2.html
+│   │   ├── create-framework-project-zf2.pdf
+│   │   ├── create-framework-project-zf2.pdfmarks
+│   │   ├── deploy-git-app.html
+│   │   ├── deploy-git-app.pdf
+│   │   ├── deploy-git-app.pdfmarks
+│   │   ├── images
+│   │   │   ├── access-phpmyadmin-remotely
+│   │   │   │   └── image1.png
+│   │   │   ├── activate-use-xdebug
+│   │   │   │   ├── image1.png
+│   │   │   │   ├── image2.png
+│   │   │   │   └── image3.png
+│   │   │   ├── backup-restore-mysql
+│   │   │   │   ├── image10.png
+│   │   │   │   ├── image11.png
+│   │   │   │   ├── image12.png
+│   │   │   │   ├── image13.png
+│   │   │   │   ├── image14.png
+│   │   │   │   ├── image1.png
+│   │   │   │   ├── image2.png
+│   │   │   │   ├── image3.png
+│   │   │   │   ├── image4.png
+│   │   │   │   ├── image5.png
+│   │   │   │   ├── image6.png
+│   │   │   │   ├── image7.png
+│   │   │   │   ├── image8.png
+│   │   │   │   └── image9.png
+│   │   │   ├── configure-vhosts
+│   │   │   │   ├── image1.png
+│   │   │   │   ├── image2.png
+│   │   │   │   ├── image3.png
+│   │   │   │   ├── image4.png
+│   │   │   │   └── image5.png
+│   │   │   ├── configure-wildcard-subdomains
+│   │   │   │   ├── image1.png
+│   │   │   │   ├── image2.png
+│   │   │   │   ├── image3.png
+│   │   │   │   └── image4.png
+│   │   │   ├── create-framework-project-zf1
+│   │   │   │   ├── image1.png
+│   │   │   │   └── image2.png
+│   │   │   ├── create-framework-project-zf2
+│   │   │   │   ├── image1.png
+│   │   │   │   ├── image2.png
+│   │   │   │   ├── image3.png
+│   │   │   │   └── image4.png
+│   │   │   ├── deploy-git-app
+│   │   │   │   ├── image1.png
+│   │   │   │   ├── image2.png
+│   │   │   │   ├── image3.png
+│   │   │   │   ├── image4.png
+│   │   │   │   ├── image5.png
+│   │   │   │   └── image6.png
+│   │   │   ├── install-wordpress
+│   │   │   │   ├── image01.png
+│   │   │   │   ├── image02.png
+│   │   │   │   ├── image110.png
+│   │   │   │   ├── image111.png
+│   │   │   │   ├── image112.png
+│   │   │   │   ├── image11.png
+│   │   │   │   ├── image12.png
+│   │   │   │   ├── image13.png
+│   │   │   │   ├── image14.png
+│   │   │   │   ├── image15.png
+│   │   │   │   ├── image16.png
+│   │   │   │   ├── image17.png
+│   │   │   │   ├── image18.png
+│   │   │   │   ├── image19.png
+│   │   │   │   ├── image21.png
+│   │   │   │   ├── image22.png
+│   │   │   │   ├── image23.png
+│   │   │   │   ├── image24.png
+│   │   │   │   ├── image31.png
+│   │   │   │   ├── image32.png
+│   │   │   │   ├── image33.png
+│   │   │   │   ├── image34.png
+│   │   │   │   ├── image35.png
+│   │   │   │   ├── image36.png
+│   │   │   │   ├── image37.png
+│   │   │   │   └── image38.png
+│   │   │   ├── read-write-htdocs
+│   │   │   │   ├── image1.png
+│   │   │   │   ├── image2.png
+│   │   │   │   ├── image3.png
+│   │   │   │   └── image4.png
+│   │   │   ├── reset-mysql-password
+│   │   │   │   ├── image1.png
+│   │   │   │   └── image2.png
+│   │   │   ├── send-mail
+│   │   │   │   ├── image1.png
+│   │   │   │   ├── image2.png
+│   │   │   │   └── image3.png
+│   │   │   ├── transfer-files-ftp
+│   │   │   │   ├── image1.png
+│   │   │   │   ├── image2.png
+│   │   │   │   ├── image3.png
+│   │   │   │   ├── image4.png
+│   │   │   │   ├── image5.png
+│   │   │   │   └── image6.png
+│   │   │   ├── troubleshoot-apache
+│   │   │   │   └── image1.png
+│   │   │   ├── use-different-php-version
+│   │   │   │   ├── image1.png
+│   │   │   │   └── image2.png
+│   │   │   └── use-sqlite
+│   │   │       ├── image1.png
+│   │   │       ├── image2.png
+│   │   │       └── image3.png
+│   │   ├── increase-php-file-upload-limit.html
+│   │   ├── increase-php-file-upload-limit.pdf
+│   │   ├── increase-php-file-upload-limit.pdfmarks
+│   │   ├── install-wordpress.html
+│   │   ├── install-wordpress.pdf
+│   │   ├── install-wordpress.pdfmarks
+│   │   ├── read-write-htdocs.html
+│   │   ├── read-write-htdocs.pdf
+│   │   ├── read-write-htdocs.pdfmarks
+│   │   ├── reset-mysql-password.html
+│   │   ├── reset-mysql-password.pdf
+│   │   ├── reset-mysql-password.pdfmarks
+│   │   ├── send-mail.html
+│   │   ├── send-mail.pdf
+│   │   ├── send-mail.pdfmarks
+│   │   ├── transfer-files-ftp.html
+│   │   ├── transfer-files-ftp.pdf
+│   │   ├── transfer-files-ftp.pdfmarks
+│   │   ├── troubleshoot-apache.html
+│   │   ├── troubleshoot-apache.pdf
+│   │   ├── troubleshoot-apache.pdfmarks
+│   │   ├── use-different-php-version.html
+│   │   ├── use-different-php-version.pdf
+│   │   ├── use-different-php-version.pdfmarks
+│   │   ├── use-sqlite.html
+│   │   ├── use-sqlite.pdf
+│   │   └── use-sqlite.pdfmarks
+│   ├── es
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── faq.html
+│   ├── favicon.ico
+│   ├── fr
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── howto.html
+│   ├── howto_platform_links.html
+│   ├── howto_shared_links.html
+│   ├── hu
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── images
+│   │   ├── addons
+│   │   │   ├── beetailer-icon.png
+│   │   │   ├── elegantthemes-icon.png
+│   │   │   ├── rockettheme-icon.png
+│   │   │   ├── sugaroutfitters-icon.png
+│   │   │   ├── templatemonster-icon.png
+│   │   │   ├── themeforest-icon.png
+│   │   │   ├── woothemes-icon.png
+│   │   │   └── wpmu-icon.png
+│   │   ├── addons-video-thumb.png
+│   │   ├── apple-logo.png
+│   │   ├── background.png
+│   │   ├── bitnami-xampp.png
+│   │   ├── blog
+│   │   │   ├── heartbleed-affected-osx.png
+│   │   │   ├── heartbleed-affected.png
+│   │   │   ├── heartbleed-fixed.png
+│   │   │   ├── phpinfo-section-1.png
+│   │   │   └── phpinfo-section-2.png
+│   │   ├── fastly-logo@2x.png
+│   │   ├── fastly-logo.png
+│   │   ├── favicon.png
+│   │   ├── flags
+│   │   │   ├── cn.png
+│   │   │   ├── de.png
+│   │   │   ├── en.png
+│   │   │   ├── es.png
+│   │   │   ├── fr.png
+│   │   │   ├── hu.png
+│   │   │   ├── it.png
+│   │   │   ├── jp.png
+│   │   │   ├── pl.png
+│   │   │   ├── pt_br.png
+│   │   │   ├── pt.png
+│   │   │   ├── ro.png
+│   │   │   ├── ru.png
+│   │   │   ├── tr.png
+│   │   │   ├── ur.png
+│   │   │   ├── zh_cn.png
+│   │   │   └── zh_tw.png
+│   │   ├── linux-logo.png
+│   │   ├── middleman.png
+│   │   ├── pdf-icon.png
+│   │   ├── screenshots
+│   │   │   ├── xampp-linux-start.jpg
+│   │   │   ├── xampp-macosx-start.jpg
+│   │   │   └── xampp-windows-start.jpg
+│   │   ├── social-icons@2x.png
+│   │   ├── social-icons-large@2x.png
+│   │   ├── social-icons-large.png
+│   │   ├── social-icons.png
+│   │   ├── sourceforge-logo@2x.png
+│   │   ├── sourceforge-logo.png
+│   │   ├── stack-icons@2x.png
+│   │   ├── stack-icons.png
+│   │   ├── stamps
+│   │   │   ├── stamp-173x38.gif
+│   │   │   ├── stamp-80x15.gif
+│   │   │   └── stamp-88x31.gif
+│   │   ├── team
+│   │   │   ├── beltran-rueda.png
+│   │   │   ├── daniel-lopez.png
+│   │   │   ├── kai-seidler.jpg
+│   │   │   ├── kay-vogelgesang.jpg
+│   │   │   └── paul-hinz.jpg
+│   │   ├── twitter-bird.png
+│   │   ├── windows-logo.png
+│   │   ├── xampp-cloud@2x.png
+│   │   ├── xampp-cloud.png
+│   │   └── xampp-logo.svg
+│   ├── index.html
+│   ├── it
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── javascripts
+│   │   ├── all.js
+│   │   └── modernizr.js
+│   ├── jp
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── phpinfo.php
+│   ├── pl
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── pt_br
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── ro
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── ru
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── stylesheets
+│   │   ├── all.css
+│   │   ├── all-rtl.css
+│   │   ├── asciidoctor.css
+│   │   └── normalize.css
+│   ├── tr
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── ur
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   ├── zh_cn
+│   │   ├── faq.html
+│   │   ├── howto.html
+│   │   ├── howto_platform_links.html
+│   │   ├── howto_shared_links.html
+│   │   └── index.html
+│   └── zh_tw
+│       ├── faq.html
+│       ├── howto.html
+│       ├── howto_platform_links.html
+│       ├── howto_shared_links.html
+│       └── index.html
+├── fonts
+│   ├── glyphicons-halflings-regular.eot
+│   ├── glyphicons-halflings-regular.svg
+│   ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.woff
+│   └── glyphicons-halflings-regular.woff2
+├── img
+│   ├── Asgard_Hotel.gif
+│   ├── blur-1867663_960_720.jpg
+│   ├── Dom_Hotel.gif
+│   ├── hotel-1330841_960_720.jpg
+│   ├── hotel-389256_960_720.jpg
+│   ├── keyboard-1621105_960_720.jpg
+│   ├── LogoBM.png
+│   ├── LogoLang.png
+│   ├── maldives-666122_960_720.jpg
+│   ├── module_table_bottom.png
+│   ├── module_table_top.png
+│   └── Park_Hotel.gif
+├── inc
+│   ├── config.inc.php
+│   ├── functions.inc.php
+│   └── password.inc.php
+├── index.php
+├── internal.php
+├── js
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+├── login.php
+├── logout.php
+├── passwortvergessen.php
+├── passwortzuruecksetzen.php
+├── register.php
+├── settings.php
+├── templates
+│   ├── error.inc.php
+│   ├── footer.inc.php
+│   └── header.inc.php
+├── tipp.php
+└── tree.txt
+
+48 directories, 331 files
